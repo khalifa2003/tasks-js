@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        .container {
+            margin: 0px auto;
+            width: 500px;
+            padding: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .form {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #eee;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        .input {
+            width: 100%;
+            border: none;
+            border-radius: 6px;
+            padding: 10px;
+            outline: none;
+        }
+        .add {
+            margin-left: 10px;
+            border: none;
+            background-color: rgb(255, 106, 0, 0.9);
+            border-radius: 6px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .add:hover {
+            background-color: rgb(255, 106, 0);
+        }
+        .tasks {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            flex-direction: column;
+            padding: 20px;
+            background-color: #eee;
+            border-radius: 6px;
+        }
+        .tasks div {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 6px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .tasks div input {
+            margin-left: 10px;
+            border: none;
+            background-color: rgb(255, 55, 55);
+            border-radius: 6px;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <input type="text" class="input">
+            <input type="submit" class="add" value="Add Task">
+        </div>
+        <div class="tasks">
+        </div>
+    </div>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>

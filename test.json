@@ -1,0 +1,11 @@
+{
+  "string": "khalifa",
+  "number": 100,
+  "object": {
+    "EG": "Giza",
+    "KSA": "Riyadh"
+  },
+  "array": ["HTML", "CSS", "JS"],
+  "bollean": true,
+  "null": null
+}
